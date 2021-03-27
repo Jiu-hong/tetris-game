@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="app.js" charset="utf-8"></script>
+    <script
+      src="https://kit.fontawesome.com/d7febd1d39.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="playground">
+      <div class="info">
+        <div class="scoreinfo">Score:<span class="score">0</span></div>
+        <div class="button">
+          <button class="start"><i class="fas fa-play"></i></button>
+          <button class="pause"><i class="fas fa-pause"></i></button>
+          <button class="restart">new</button>
+        </div>
+      </div>
+      <div class="nextviewlayer">
+        <div class="nextview"></div>
+      </div>
+
+      <div class="grid-board">
+        <div class="grid"></div>
+        <div class="keyboard">
+          <button class="left"><i class="fas fa-chevron-left"></i></button>
+          <button class="up"><i class="fas fa-sync-alt"></i></button>
+          <button class="down"><i class="fas fa-chevron-down"></i></button>
+
+          <button class="right"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="gameovercard">
+          game over
+          <div class="card">
+            <button class="closecard">close</button>
+            <button class="newplay">new</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="level">
+        <label for="levelinput"
+          >Lvl: <span class="level-output" for="levelinput">3</span>
+        </label>
+        <input
+          type="range"
+          name="levelinput"
+          id="levelinput"
+          min="1"
+          max="5"
+          step="1"
+          value="3"
+        />
+      </div>
+    </div>
+  </body>
+</html>
