@@ -142,7 +142,8 @@ button:active {
 }
 
 .restart,
-.start {
+.start,
+.pause {
   flex: 100% 1 1;
 }
 
