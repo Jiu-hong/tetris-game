@@ -241,6 +241,8 @@ document.addEventListener("DOMContentLoaded", () => {
         gameStart = false;
         gameovercard.classList.add("show");
         // gameovercard.style.transition = "1000ms";
+        pauseBtn.style.display = "none";
+        startBtn.style.display = "block";
 
         return true;
       }
