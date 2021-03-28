@@ -211,6 +211,7 @@ button:active {
   margin-top: 0.5em;
   display: flex;
   margin: auto;
+  gap: 1em;
 }
 
 @media (min-width: 553px) {
